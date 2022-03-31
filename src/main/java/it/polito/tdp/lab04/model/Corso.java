@@ -78,7 +78,7 @@ public class Corso implements Comparable<Corso> {
 
 	@Override
 	public int compareTo(Corso o) {
-		return o.getNome().compareTo(this.getNome());
+		return (-1) * (o.getNome().compareTo(this.getNome()));
 	}
 	
 }
